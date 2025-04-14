@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earn Rewards</title>
+    <script src='//whephiwums.com/sdk.js' data-zone='9009715' data-sdk='show_9009715'></script>
+    <script>
+      // Monetag Ad Integration
+      function show_9009715() {
+        return new Promise((resolve, reject) => {
+          // Simulating ad display
+          setTimeout(() => {
+            resolve();
+          }, 3000);
+        });
+      }
+      window.show_9009715 = show_9009715;
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
